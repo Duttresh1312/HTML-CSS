@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Tut </title>  
+    <style>
+      .cont{
+         display: grid;
+       grid-gap: 2rem;
+       grid-template-areas: 
+          'navbar navbar navbar navbar'
+          'section section section aside';
+      } 
+       
+      .item{
+          background-color: rgb(216, 193, 137);
+          border: 2px solid rosybrown;
+      }
+      #navbar{ 
+         grid-area: navbar;
+      }
+      #section{
+        grid-area: section;
+
+      }
+      #aside{
+        grid-area: aside;
+
+      }
+    
+    </style>
+</head>
+<body>
+   <div class="cont">
+       <div id="navbar"class="item">this is item-1</div>
+       <div id="section" class="item">this is item-2</div>
+       <div id="aside"class="item">this is item-3</div>
+       <div class="item">this is item-4</div>
+       <div class="item">this is item-5</div>
+       <div class="item">this is item-6</div>
+       <div class="item">this is item-7</div>
+       <div class="item">this is item-8</div>
+       <div class="item">this is item-9</div>
+       <div class="item">this is item-9</div>
+       <div class="item">this is item-9</div>
+       <div class="item">this is item-9</div>
+       <div class="item">this is item-9</div>
+       <div class="item">this is item-9</div>
+       <div class="item">this is item-9</div>
+       <div class="item">this is item-9</div>
+       <div class="item">this is item-9</div>
+      
+   </div>
+</body>
+</html>

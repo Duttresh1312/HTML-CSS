@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forms</title>
+</head>
+
+<body>  
+<h2>Html Form</h2>
+ <form action="backend.php"> 
+ <label for="name">
+   <div>  
+     Name <input type="text" id="name">
+    </div> <br>
+    <label for="role">
+    <div> 
+     Role <input type="text" id="role">
+    </div><br>
+    <div>
+      Date: <input type="date">
+    </div>
+   
+     <div> 
+     Gender:  Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+    </div> <br>
+    <label for="check">
+    <div> 
+     Are you experienced? <input type="checkbox" id="check">
+    </div><br>
+    <div>
+      <label for="car">Car </label>
+       <select name="mycar" id="car">
+       <option value="Bmw" >BMW</option>
+      <option value="Mg" selected>Hector</option>
+      <option value="roy">ferrari</option>
+    
+      </select> 
+      
+    </div> 
+    <br>
+    <input type="submit" name="myinfo" id="" value="Submit" />
+    <input type="reset" value="reset">
+ </form>
+</body>
+
+</html>
